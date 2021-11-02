@@ -20,4 +20,4 @@ $(".update-img-button").click(function() {
 // add messages
 $(".message-button").click( function() {
   $(".message").append(inputText.val() + "<br>");
-})
+});
